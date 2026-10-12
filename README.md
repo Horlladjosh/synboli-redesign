@@ -17,3 +17,9 @@ Independent website redesign proposal based on Synboli’s public website.
 - `CONTENT_SOURCES.md`: content provenance and redesign constraints.
 
 Images are illustrative stock photographs. Credits are listed on the website’s credits page.
+
+## Metadata and indexing
+
+This pitch site uses noindex page metadata and X-Robots-Tag headers. Robots.txt permits crawling so crawlers can read noindex. Page titles, descriptions, canonical URLs and Open Graph/Twitter cards are included for clear link previews. These controls do not make the site private.
+
+Vercel Web Analytics is included on all regular pages. Enable Analytics in the Vercel project and deploy the commit before checking page views.
