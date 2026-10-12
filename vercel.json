@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/work-with-us/:path*",
+      "destination": "/services/:path*",
+      "permanent": true
+    }
+  ]
+}
